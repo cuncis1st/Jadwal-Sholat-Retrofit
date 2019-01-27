@@ -10,6 +10,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 public interface ApiInterface {
-    @GET("surabaya/{periode}/dayli.json")
+    @GET("{periode}/dayli.json")
     Call<ItemResponse> getJadwalSholat(@Path("periode") String periode);
 }
