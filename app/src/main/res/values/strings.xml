@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Jadwal Sholat Retrofit</string>
+    <string name="loadData">Load Data</string>
+    <string name="JadwalSholat">Jadwal Sholat</string>
 </resources>
